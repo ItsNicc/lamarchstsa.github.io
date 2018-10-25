@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>BAADEEZ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Band Information" />
+  <meta name="author" content="Lamar CHS TSA" />
+  <!-- styles -->
+  <link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.css">
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap-theme.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/slippry.css">
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/color/default.css">
+
+  <script src="assets/js/modernizr.custom.js"></script>
+</head>
+<!--test-->
+
+  <!--test-->
+  <header>
+    <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
+      <div class="container">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="welcome.html">BAADEEZ</a>
+        </div>
+
+        <div class="navigation">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <nav>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="current"><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Songs</a></li>
+                <li><a href="#chapter">Chapter</a></li>
+                <li><a href="#cte">CTE</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+  <!-- section intro -->
+  <section id="intro">
+    <ul id="slippry-slider">
+      <li>
+        <a href="#slide1"><img src="data:image/jpeg;base64,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" height="800" width="2560" alt="We are the BAADEEZ!"></a>
+      </li>
+      <li>
+        <a href="#slide2"><img src="http://www.musiclipse.com/wp-content/uploads/2014/04/led_zeppelin_wallpaper_blac_and_white-620x350.jpg" width="2560" height="800" alt="The band that rocks! &#x1f918;"></a>
+      </li>
+      <li>
+        <a href="#slide3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7_PHQWYrBkk5YkbKtgYsKGf2i0krra9X5iWOiqqG9mP_FFp5b" width="2560" height="800" alt="Check us out, you are going to <span class='red'>♥</span> us"></a>
+      </li>
+    </ul>
+  </section>
+  <!-- end intro -->
+  <!-- Section about -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading">
+            <h3><span>About us</span></h3>
+          </div>
+          <div class="sub-heading">
+            <p>
+              We're just a bunch of guys living our dreams of becoming musical sensations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="http://oi66.tinypic.com/2z6tiy1.jpg" alt="Kouss" class="img-responsive" width="500" height="500" />
+            <div class="roles">
+              <h5><strong>Pharaoh</strong></h5>
+              <p>
+                We are being attacked... by our lead singers' amazing voice! After his failed
+                pursuit in neurosurgery, Pharaoh decided to put his killer pipes into use and
+                become a vocal phenomenon.
+              </p>
+              <ul class="social-profile">
+                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="http://oi67.tinypic.com/se9f9z.jpg" alt="" class="img-responsive" width="500" height="500"/>
+            <div class="roles">
+              <h5><strong>Aadil CSMD</strong></h5>
+              <p>
+                The Fortnite clout god, Aadil, has made a name for himself in the pianist
+                community. After his short-lived collaboration with XXXTentacion, <head>
+                  became one of the first members of the band.
+                </head>
+              </p>
+              <ul class="social-profile">
+                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="http://i66.tinypic.com/2hyytsy_th.jpg" alt="" class="img-responsive" width="500" height="500" />
+            <div class="roles">
+              <h5><strong>Nick Guitar</strong></h5>
+              <p>
+                This handsome devil is the heart and soul of the band and is wayy
+                better than all of the other guys. He could beat all of them together
+                in Playground Mode. And he's the best Obama impersonator, don't @ me.
+              </p>
+              <ul class="social-profile">
+                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            <img src="http://www.jesuschristsavior.net/Savior.jpeg" alt="" class="img-responsive" width="500" height="500" />
+            <div class="roles">
+              <h5><strong>Jazbeast Drummer</strong></h5>
+              <p>
+                Get Corsair Water Cooled by the Jazbeast as his high tempo, sick 
+                beats blast your earwaves. Nobody has ever been as elusive as Jazbeast,
+                his talent is unmatched everywhere.
+              </p>
+              <ul class="social-profile">
+                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section about -->
+  <!-- section works -->
+  <section id="works" class="section gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading">
+            <h3><span>Songs</span></h3>
+          </div>
+          <div class="sub-heading">
+            <p>
+              We are proud to announce the release of our brand new EP, ... Take a listen at our chart-topping 
+              masterpiece! 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="grid effect" id="grid">
+            <li>
+              <a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="assets/img/portfolio/1.jpg">
+								<img src="assets/img/portfolio/1.jpg" alt="" />
+							</a>
+            </li>
+            <li><a href="assets/img/portfolio/2.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/2.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/3.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/3.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/4.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/4.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/5.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/5.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/6.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/6.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/7.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/7.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/8.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/8.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/9.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/9.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/10.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/10.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/11.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/11.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/12.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/12.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/13.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/13.jpg" alt="" /></a></li>
+            <li><a href="assets/img/portfolio/14.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/14.jpg" alt="" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section works -->
+  
+  <!--section chapter-->
+  <section id="chapter" class="section gray">
+    <div class="container">
+      <div class="row"
+      <div class="col-md-8 col-md-offset-2">
+        <div class="heading">
+        </div>
+        <h3></h3><span>Lamar CHS TSA</span></h3>
+      </div>
+      <div class="sub-heading">
+        <p>
+          Want to know the secret to why Lamar CHS is so great? We're a family!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="grid effect" id="grid">
+          <li>
+            <a class="fancybox" data-fancybox-group="gallery" title="TSA_Gallery" href="assets/img/portfolio/1.jpg">
+              <img src="assets/img/portfolio/1.jpg" alt="" />
+            </a>
+          </li>
+          <li><a href="https://lamarchstsa.weebly.com/uploads/8/8/8/8/88882236/109_orig.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/DgtS4TaUwAEYocS.jpg" alt="" /></a></li>
+          <li><a href="https://lamarchstsa.weebly.com/uploads/8/8/8/8/88882236/154_orig.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/Dgobr7aU0AAsQZa.jpg" alt="" /></a></li>
+          <li><a href="https://lamarchstsa.weebly.com/uploads/8/8/8/8/88882236/23048fa5-a427-4900-a557-d67f73f8dfe3_orig.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/Dgn9QnZUcAIUEKS.jpg" alt="" /></a></li>
+          <li><a href="https://lamarchstsa.weebly.com/uploads/8/8/8/8/88882236/l_orig.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/DgnzYUbVQAAw5eT.jpg" alt="" /></a></li>
+          <li><a href="https://bloximages.chicago2.vip.townnews.com/fbherald.com/content/tncms/assets/v3/editorial/a/a3/aa345826-a064-11e7-89ee-a7242b12656a/59c6643feb2b5.image.jpg?resize=620%2C459" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/6.jpg" alt="" /></a></li>
+          <li><a href="https://www.lcisd.org/images/default-source/news-images/tsa.jpg?sfvrsn=0" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/DgnlIjlU8AEO7e5.jpg" alt="" /></a></li>
+          <li><a href="https://pbs.twimg.com/media/DpcTIDaVsAAypQR.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/DgnkOi8U8AE62TS.jpg" alt="" /></a></li>
+          <li><a href="https://pbs.twimg.com/media/DpcTIDuUUAAtW-a.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/DgZOzOOXkAAkbNX.jpg" alt="" /></a></li>
+          <li><a href="https://pbs.twimg.com/media/DoglwEjWkAEIH1R.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/DgMLHoSW4AERXqM.jpg" alt="" /></a></li>
+          <li><a href="https://pbs.twimg.com/media/DmxZ8ffXgAAOOdc.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/Dd1IaccWsAA3u7s.jpg" alt="" /></a></li>
+          <li><a href="https://pbs.twimg.com/media/Dkl_KByWwAAxi_P.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/Dd1IP0QXcAYZ8aU.jpg" alt="" /></a></li>
+          <li><a href="https://pbs.twimg.com/media/DkQJzLdXcAEbIOn.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/DbAdJGSXUAE5MJr.jpg" alt="" /></a></li>
+          <li><a href="https://pbs.twimg.com/media/DgtTKiVU0AAzkir.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://pbs.twimg.com/media/DXTgRlLWsAA7Rfm.jpg" alt="" /></a></li>
+        </ul>
+      </div>
+  </section>
+  
+  <!--section cte-->
+  
+  
+
+  <!-- section contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading">
+            <h3><span>Get in touch</span></h3>
+          </div>
+          <div class="sub-heading">
+            <p>
+              Lorem ipsum dolor sit amet, mutat paulo simul per no, assum fastidii vituperata eam no.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4><i class="icon-envelope"></i><strong>Contact form</strong></h4>
+          <p>
+            Want to work with us or just want to say hello? Don't hesitate to get in touch!
+          </p>
+          <!-- start contact form -->
+          <div class="cform" id="contact-form">
+
+
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div class="text-center"><button type="submit" class="btn btn-lg btn-theme">Send Message</button></div>
+            </form>
+          </div>
+          <!-- END contact form -->
+        </div>
+        <div class="col-md-6">
+          <h4>Find our location</h4>
+          <p>View from google map</p>
+          <!-- map -->
+          <div id="section-map" class="clearfix">
+            <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section contact -->
+  <footer>
+    <div class="verybottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aligncenter">
+              <ul class="social-network social-circle">
+                <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aligncenter">
+              <p>
+                &copy; All right reserved
+              </p>
+              <div class="credits">
+                <!--
+              
+                -->
+                Designed by BAADEEZ Inc.
+                No templates or themes or incorpirated into this website.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
+  <!-- javascript -->
+  <script src="assets/js/jquery-1.9.1.min.js"></script>
+  <script src="assets/js/jquery.easing.js"></script>
+  <script src="assets/js/classie.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/slippry.min.js"></script>
+  <script src="assets/js/nagging-menu.js"></script>
+  <script src="assets/js/jquery.nav.js"></script>
+  <script src="assets/js/jquery.scrollTo.js"></script>
+  <script src="assets/js/jquery.fancybox.pack.js"></script>
+  <script src="assets/js/jquery.fancybox-media.js"></script>
+  <script src="assets/js/masonry.pkgd.min.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script src="assets/js/AnimOnScroll.js"></script>
+  <script>
+    new AnimOnScroll(document.getElementById('grid'), {
+      minDuration: 0.4,
+      maxDuration: 0.7,
+      viewportFactor: 0.2
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#slippry-slider').slippry(
+        defaults = {
+          transition: 'vertical',
+          useCSS: true,
+          speed: 5000,
+          pause: 3000,
+          initSingle: false,
+          auto: true,
+          preload: 'visible',
+          pager: false,
+        }
+
+      )
+    });
+  </script>
+
+  <script src="assets/js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
